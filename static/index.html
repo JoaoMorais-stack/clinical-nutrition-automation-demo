@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Local demonstration of a clinical nutrition review workflow.">
+    <title>Clinical Nutrition Automation Demo</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">PORTFOLIO DEMONSTRATION</p>
+        <h1>Clinical Nutrition Automation</h1>
+      </div>
+      <div class="local-status"><span></span> Local synthetic environment</div>
+    </header>
+
+    <main>
+      <section class="control-band" aria-labelledby="run-title">
+        <div>
+          <h2 id="run-title">Review workspace</h2>
+          <p>Process a fictional dataset and inspect the generated prioritization.</p>
+        </div>
+        <div class="controls">
+          <label for="care-area">Scope</label>
+          <select id="care-area">
+            <option value="">All care areas</option>
+          </select>
+          <button id="run-button" class="primary" type="button">Run demonstration</button>
+          <button id="reset-button" class="secondary" type="button">Reset</button>
+        </div>
+      </section>
+
+      <section class="metrics" aria-label="Run summary">
+        <article><span>Total cases</span><strong id="metric-total">0</strong></article>
+        <article><span>Priority alerts</span><strong id="metric-alerts">0</strong></article>
+        <article><span>Follow-ups</span><strong id="metric-followups">0</strong></article>
+        <article><span>Care areas</span><strong id="metric-areas">0</strong></article>
+      </section>
+
+      <section class="workspace-grid">
+        <div class="results-panel">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">LATEST RUN</p>
+              <h2 id="run-label">Ready to demonstrate</h2>
+            </div>
+            <button id="download-button" class="secondary" type="button" disabled>Download JSON report</button>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Case</th>
+                  <th>Area</th>
+                  <th>Nutrition route</th>
+                  <th>Risk</th>
+                  <th>Recommended action</th>
+                </tr>
+              </thead>
+              <tbody id="case-rows">
+                <tr class="empty-row"><td colspan="5">Run the demonstration to populate this view.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <aside class="activity-panel">
+          <p class="eyebrow">WORKFLOW TRACE</p>
+          <h2>Activity</h2>
+          <ol id="event-list"><li>Waiting for a local run.</li></ol>
+          <div class="distribution">
+            <h3>Route distribution</h3>
+            <div id="distribution-list"><p>No results yet.</p></div>
+          </div>
+        </aside>
+      </section>
+
+      <section class="history-section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">LOCAL HISTORY</p>
+            <h2>Recent demonstrations</h2>
+          </div>
+        </div>
+        <div id="history-list" class="history-list"><p>No saved runs.</p></div>
+      </section>
+    </main>
+
+    <footer>Fictional data only. Designed for local portfolio evaluation.</footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
+

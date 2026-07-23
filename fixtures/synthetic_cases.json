@@ -1,0 +1,118 @@
+{
+  "fixture_notice": "Every person, identifier, location and clinical detail in this file is fictional.",
+  "scenarios": {
+    "morning-round": [
+      {
+        "case_id": "DEMO-1001",
+        "display_name": "Maya Brooks",
+        "age_band": "Adult 30-39",
+        "care_area": "North Wing",
+        "room_label": "N-12",
+        "nutrition_route": "Oral",
+        "texture": "Soft",
+        "risk_level": "moderate",
+        "follow_up_required": true,
+        "note": "Fictional case: appetite review scheduled."
+      },
+      {
+        "case_id": "DEMO-1002",
+        "display_name": "Oliver Chen",
+        "age_band": "Adult 60-69",
+        "care_area": "North Wing",
+        "room_label": "N-18",
+        "nutrition_route": "Tube feeding",
+        "texture": "Not applicable",
+        "risk_level": "high",
+        "follow_up_required": true,
+        "note": "Fictional case: tolerance review requested."
+      },
+      {
+        "case_id": "DEMO-1003",
+        "display_name": "Sofia Mendes",
+        "age_band": "Adult 40-49",
+        "care_area": "Garden Wing",
+        "room_label": "G-07",
+        "nutrition_route": "Oral",
+        "texture": "Regular",
+        "risk_level": "low",
+        "follow_up_required": false,
+        "note": "Fictional case: routine monitoring."
+      },
+      {
+        "case_id": "DEMO-1004",
+        "display_name": "Noah Williams",
+        "age_band": "Adult 50-59",
+        "care_area": "Critical Care",
+        "room_label": "C-03",
+        "nutrition_route": "Parenteral",
+        "texture": "Not applicable",
+        "risk_level": "critical",
+        "follow_up_required": true,
+        "note": "Fictional case: specialist review is due."
+      },
+      {
+        "case_id": "DEMO-1005",
+        "display_name": "Amara Okafor",
+        "age_band": "Adult 20-29",
+        "care_area": "Garden Wing",
+        "room_label": "G-11",
+        "nutrition_route": "Oral",
+        "texture": "Pureed",
+        "risk_level": "moderate",
+        "follow_up_required": true,
+        "note": "Fictional case: texture acceptance review."
+      }
+    ],
+    "afternoon-round": [
+      {
+        "case_id": "DEMO-2001",
+        "display_name": "Elena Rossi",
+        "age_band": "Adult 50-59",
+        "care_area": "North Wing",
+        "room_label": "N-14",
+        "nutrition_route": "Oral",
+        "texture": "Regular",
+        "risk_level": "low",
+        "follow_up_required": false,
+        "note": "Fictional case: stable intake."
+      },
+      {
+        "case_id": "DEMO-2002",
+        "display_name": "Theo Martins",
+        "age_band": "Adult 70-79",
+        "care_area": "Critical Care",
+        "room_label": "C-05",
+        "nutrition_route": "Tube feeding",
+        "texture": "Not applicable",
+        "risk_level": "high",
+        "follow_up_required": true,
+        "note": "Fictional case: target review is due."
+      },
+      {
+        "case_id": "DEMO-2003",
+        "display_name": "Aisha Rahman",
+        "age_band": "Adult 30-39",
+        "care_area": "Garden Wing",
+        "room_label": "G-09",
+        "nutrition_route": "Oral",
+        "texture": "Soft",
+        "risk_level": "moderate",
+        "follow_up_required": true,
+        "note": "Fictional case: intake trend review."
+      },
+      {
+        "case_id": "DEMO-2004",
+        "display_name": "Liam Carter",
+        "age_band": "Adult 40-49",
+        "care_area": "North Wing",
+        "room_label": "N-21",
+        "nutrition_route": "Oral",
+        "texture": "Pureed",
+        "risk_level": "high",
+        "follow_up_required": true,
+        "note": "Fictional case: priority texture review."
+      }
+    ]
+  }
+}
+
